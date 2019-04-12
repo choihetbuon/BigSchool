@@ -23,13 +23,17 @@ textarea {
     max-width: 280px;
 }
 .navbar-inverse{
-    background-color:grey;
+    background-color:aqua;
     border-color:white;
 }
 .navbar-inverse .navbar-nav > li > a{
     color:black;
 }
 .navbar-inverse .navbar-brand{
+    color:black;
+}
+.navbar-nav {
+    background-color:cornflowerblue;
     color:black;
 }
 .course{
@@ -42,7 +46,7 @@ textarea {
 .course > li .date {
     text-align : center;
     background-color: lightcyan;
-    color: mintcream;
+    color: black;
     width : 60px;
     border-radius: 9px;
 }

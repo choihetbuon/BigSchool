@@ -79,6 +79,18 @@ namespace BigSchool.Controllers
             return View(courses);
         }
         [Authorize]
+        public ActionResult Following()
+        {
+            var userId = User.Identity.GetUserId();
+
+            var follow = _dbContext.Followings
+                .Where(a => a.FollowerId == userId)
+                .Select(a => a.Followee)
+                .ToList();
+
+            return View(follow);
+        }
+        [Authorize]
         public ActionResult Edit(int id)
         {
             var userId = User.Identity.GetUserId();
