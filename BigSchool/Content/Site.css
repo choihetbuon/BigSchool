@@ -23,14 +23,14 @@ textarea {
     max-width: 280px;
 }
 .navbar-inverse{
-    background-color:aquamarine;
-    border-color:aliceblue;
+    background-color:grey;
+    border-color:white;
 }
 .navbar-inverse .navbar-nav > li > a{
-    color:cyan;
+    color:black;
 }
 .navbar-inverse .navbar-brand{
-    color:floralwhite;
+    color:black;
 }
 .course{
     list-style: none;
